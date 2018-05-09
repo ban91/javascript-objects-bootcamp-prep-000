@@ -8,3 +8,8 @@ function updatePlaylist(obj, string, title) {
   obj[string] = title
   return obj
 }
+
+function removeFromPlaylist(obj, string) {
+  delete obj.string;
+  return obj
+}
